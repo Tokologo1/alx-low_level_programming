@@ -6,7 +6,7 @@
 * main - Print if the number is positive,zerp , or negative
 *
 * Description : Using main function
-* Program Prints " Program is positive, zero, or negative"
+* Program Prints
 * Return : 0
 */
 int main(void)
