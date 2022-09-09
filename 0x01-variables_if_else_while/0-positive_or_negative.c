@@ -5,11 +5,9 @@
 /**
  *  main -print if the number is positive, zero, or negative
  *  Description : using the main function
- *  This program prints "Program is postive, zero , or negative"
- *  Return : 0
+ *  This program prints
+ *  Return : 0 (Success)
  */
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
