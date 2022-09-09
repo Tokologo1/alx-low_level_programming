@@ -6,7 +6,7 @@
 * main - Print if the number is positive,zerp , or negative
 *
 * Description : Using main function
-* Program Prints " Program is positive, zero, or negative
+* Program Prints " Program is positive, zero, or negative"
 * Return : 0
 */
 int main(void)
@@ -22,7 +22,7 @@ printf("%i is positive\n", n);
 }
 else if (n == 0)
 {
-printf"(%i is zero\n", n);
+printf("%i is zero\n", n);
 }
 else if (n < 0)
 {
