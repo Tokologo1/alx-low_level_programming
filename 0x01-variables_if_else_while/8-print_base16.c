@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	cahr basae_16;
+	char basae_16;
 
 	for (base_16 =48; base_16 <= 57; base_16++)
 	{
