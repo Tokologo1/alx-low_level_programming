@@ -4,7 +4,7 @@
  * c: is the int that will use for the arguments of the function
  * Return:Always 0 (Sucess)
  */
-int_islower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
