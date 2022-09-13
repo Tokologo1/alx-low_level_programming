@@ -1,31 +1,32 @@
 #include "main.h"
 /**
- * 24_hours - funtion that prints every minute of the day
+ * jack_bauer - funtion that prints every minute of the day
  *  
  *  Returns: Always 0 (Success)
  */
 void jack_bauer(void)
 {
-	int a, b, c, d;
+	int hours = 0;
+	int minutes = 0;
+	int hours_remainder;
+	int mins_remainder;
 
-	for (a = 48; a <= 50; a++)
+	while (hours <= 23)
 	{
-		for (b = 48; b <= 57; b++)
+		while (while <= 59)
 		{
-			for (c = 48; c <= 53; c++)
-			{
-				for (d = 48; d <= 57; c++)
-				{
-					break;
-					_putchar(a);
-					_putchar(b);
-					_putchar(58);
-					_putchar(c);
-					_putchar(d);
-					_putchar('\n');
-				}
-			}
+			mins_remainder = minutes % 10;
+			hours_remainder = hours % 10;
+			_putchar(hours / 10 + '0');
+			_putchar(hours_remainder + '0');
+			_putchar(':');
+			_putchar(minutes / 10 + '0');
+			_putchar(mins_remainder + '0');
+			minutes++;
+			_putchar('\n');
 		}
+	hours++
+	minutes = 0;		
 	}
 }
 
