@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * Display a lower case Alphabet and new line
+ * print_alphabet - function to print lower case
  *
  * Return:Awalys 0 (Success)
- *
  */
 void print_alphabet(void)
 {
