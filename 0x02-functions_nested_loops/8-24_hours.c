@@ -1,7 +1,6 @@
 #include "main.h"
 /**
 * jack_bauer - funtion that prints every minute of the day
-*  
 * Returns: Always 0 (Success)
 */
 void jack_bauer(void)
@@ -26,6 +25,6 @@ minutes++;
 _putchar('\n');
 }
 hours++;
-minutes = 0;		
+minutes = 0;
 }
 }
