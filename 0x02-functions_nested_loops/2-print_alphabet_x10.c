@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Print Alphabets x10 - function to print abc 10 times
+ * print_qaphabes_x10 - function to print abc 10 times
  *
  * Return:Always 0 (Success)
  */
