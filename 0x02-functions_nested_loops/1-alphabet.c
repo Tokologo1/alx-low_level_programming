@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * Display a lower case Alphabet and new line
  *
