@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* print_to_98 - function that prints all natural 
+* print_to_98 - function that prints all natural
 * numbers from n to 98, followed by a new line.
 * @n: the function will make use of the integer n
 * Return:Always 0 (Success)
