@@ -2,9 +2,8 @@
 
 /**
  * _isupper - Write a function that checks for uppercase character
- * @c - is Integer
- * Return: 1 if c is uppercasae
- * Return: 0 otherwise
+ * @c: pinrt Integer
+ * Return: give 1 0r 0
  */
 int _isupper(int c)
 {
