@@ -1,17 +1,22 @@
 #include "main.h"
-
-/**
- * _isupper - Write a function that checks for uppercase character
- * @c: pinrt Integer
- * Return: give 1 0r 0
+#include <ctype.h>
+/*
+ * _isupper - function that checks for alphabetuc character
+ *
+ * @c: Return char type
+ *
+ * Return: Always 0 (Success) and 1 on fail
  */
 int _isupper(int c)
 {
-    char c;
+	int i = isupper(c);
 
-    if ((c >= 'A') && (c <= 'Z'))
-           return (1);
-    else
-            return (0);
-
+	if (i > 0)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
