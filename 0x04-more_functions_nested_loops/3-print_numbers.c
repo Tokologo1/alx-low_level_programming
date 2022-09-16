@@ -4,7 +4,7 @@
  *
  * Return: Always 0
  */
-int print_numer(void)
+int print_number(void)
 {
 	int num = 0;
 
