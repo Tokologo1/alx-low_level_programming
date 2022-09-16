@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
-/*
- * _isupper - function that checks for alphabetuc character
+/**
+ * _isupper - function that checks for alphabetic character
  *
  * @c: Return char type
  *
@@ -9,7 +9,7 @@
  */
 int _isupper(int c)
 {
-	if ( c >= 65 && c <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
