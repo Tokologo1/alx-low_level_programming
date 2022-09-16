@@ -8,7 +8,7 @@
  *
  * Return: Always 0 (Success) and 1 on fail
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 	{
