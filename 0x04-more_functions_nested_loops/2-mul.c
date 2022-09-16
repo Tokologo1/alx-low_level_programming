@@ -7,7 +7,7 @@
  *
  * Return:Always 0 (Success) and 1 on faol
  */
-int mul(ibt a, int b)
+int mul(int a, int b)
 {
 	int m = a * b;
 
