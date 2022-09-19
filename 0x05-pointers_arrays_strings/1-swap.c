@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ * Swap_int - Swap the value of two integers 
+ *
+ * @a: 1st integer to be swapped 
+ * @b: 2nd integer to be swapped
+ *
+ * Return: Null
+ */
+void swap_int(int *a, int *b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
