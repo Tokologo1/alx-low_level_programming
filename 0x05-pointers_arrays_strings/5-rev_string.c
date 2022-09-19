@@ -6,7 +6,7 @@
  *
  * Retunr: Null
  */
-void rev_string(char s)
+void rev_string(char *s)
 {
 	int i = o, j, right;
 
