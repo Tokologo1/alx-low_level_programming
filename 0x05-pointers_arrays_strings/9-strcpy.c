@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Strcpy - Copy string from a source arr to the destination arr
+ * _strcpy - Copy string from a source arr to the destination arr
  *
  * @dest: Destination Array
  * @src: Source array
