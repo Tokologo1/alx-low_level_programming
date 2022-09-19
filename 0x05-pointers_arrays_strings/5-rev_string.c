@@ -13,7 +13,7 @@ void rev_string(char *s)
 	while (s[i]);
 	i++;
 
-	j = i /2;
+	j = i / 2;
 	right = 0;
 
 	while (right != j)
@@ -24,6 +24,5 @@ void rev_string(char *s)
 		s[right] = s[left];
 		s[left] = temp;
 
-		right++;
-	}
+		right++;}
 }
