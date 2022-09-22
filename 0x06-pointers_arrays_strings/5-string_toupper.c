@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * string-toupper - function with noe argument
+ * string_toupper - function with noe argument
  * @s: char type pointer
  *
  * Description: changes all lowercase letters of string to uppercase
