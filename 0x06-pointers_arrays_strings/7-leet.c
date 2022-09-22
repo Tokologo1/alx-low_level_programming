@@ -3,15 +3,15 @@
  * leet - function with one argument
  * @str: char type pointer argument
  *
- * Description: encodes a strnig in 1337
+ * Description: encodes a string in 1337
  * Return: value fof encoded string
  */
 char *leet(char *str)
 {
-	char *letters, *replace;
+	char *letter, *replace;
 	int count, count2;
 
-	letters = "aAeEoOtTiL";
+	letter = "aAeEoOtTlL";
 	replace = "4433007711";
 
 	count = 0;
@@ -20,12 +20,11 @@ char *leet(char *str)
 		count2 = 0;
 		while (letters[count2] != '\0')
 		{
-
-		if (str[count] == letter[count2])
-		{
-			str[count] = replace[count2];
-		}
-		count2++;
+			if (str[count] == letters[count2])
+			{
+				str[count] == letters[count2];
+			}
+			count2++;
 		}
 		count++;
 	}
