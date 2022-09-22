@@ -6,7 +6,7 @@
  * Description: encodes a strnig in 1337
  * Return: value fof encoded string
  */
-cahr *leet(char *str)
+char *leet(char *str)
 {
 	char *letters, *replace;
 	int count, count2;
