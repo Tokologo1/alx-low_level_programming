@@ -12,7 +12,7 @@ char *rot13(char *str)
 	int count, count2;
 
 	input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	output ="NOPQRSTUVQXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	output = "NOPQRSTUVQXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	count = 0;
 	while (str[count] != '\0')
 	{
