@@ -17,7 +17,7 @@ cahr *leet(char *str)
 	count = 0;
 	while (str[count] != '\0')
 	{
-		count2 =0;
+		count2 = 0;
 		while (letters[count2] != '\0')
 		{
 
