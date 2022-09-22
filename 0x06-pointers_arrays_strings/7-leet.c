@@ -8,25 +8,21 @@
  */
 char *leet(char *str)
 {
-	char *letter, *replace;
-	int count, count2;
+	int stringCount, leetCount;
+	char leetLetters[] = "aAeEoOtTlL";
+	char leetNums[] = "4433007711";
 
-	letter = "aAeEoOtTlL";
-	replace = "4433007711";
-
-	count = 0;
-	while (str[count] != '\0')
+	stringCount = 0;
 	{
-		count2 = 0;
-		while (letters[count2] != '\0')
+		leetCount = 0;
+		while (leetCount < 10)
 		{
-			if (str[count] == letters[count2])
+			if (leetLetters[leetCount] == str[stringCount])
 			{
-				str[count] == letters[count2];
+				str[stringCount] == leetNums[leetCount];
 			}
-			count2++;
+			leetCount++;
 		}
-		count++;
+		stringCount++;
 	}
 	return (str);
-}
