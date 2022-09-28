@@ -24,7 +24,6 @@ int helperFunction(int num, int i)
 		return (1);
 	}
 }
-
 /**
   *is_prime_number - checks if number is prime or not.
   *@n: number to be checked.
