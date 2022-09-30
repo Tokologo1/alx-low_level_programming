@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Entry Point 
+ * main - Entry Point
  * atoi is a fuction that converts a string into an int
  * @argc: arguments
  * @argv: array poiting to arguments
@@ -10,12 +10,12 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, red = 1;
+	int i, res = 1;
 
 	if (argc != 3)
 	{
-		printf("%s\n", "Error")
-			return (1);
+		printf("%s\n", "Error");
+		return (1);
 	}
 	else
 	{
