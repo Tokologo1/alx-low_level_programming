@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main_h"
+#include "main.h"
 /**
  * main - Entry Point 
  * atoi is a fuction that converts a string into an int
