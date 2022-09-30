@@ -25,11 +25,9 @@ int main(int argc __attribute__((unused)), char *argv[])
 
 void print_string(char *str)
 {
-	int i = o;
+	int count = argc;
 
-	while (str[i] != '\0')
-	{
-		putchar(str[i]);
-		i++;
-	}
+	printf("%s\n", argv[0]);
+	count++;
+	return (0);
 }
