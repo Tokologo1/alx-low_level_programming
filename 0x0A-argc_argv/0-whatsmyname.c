@@ -7,7 +7,7 @@
  * Description: prints all arguments it receiveds
  * Return: void
  */
-int main(int argc argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	argc = 0;
 	
