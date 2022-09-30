@@ -7,27 +7,10 @@
  * Description: prints all arguments it receiveds
  * Return: void
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc argc, char *argv[])
 {
-	print_string(argv[0]);
-	putchar('\n');
-
-	return (0);
-}
-
-/**
- * print_string - Prints all char of the string
- *
- * @str: Pointer to string
- *
- * Return : Void
- */
-
-void print_string(char *str)
-{
-	int count = argc;
-
-	printf("%s\n", argv[0]);
-	count++;
+	argc = 0;
+	
+	printf("%s\n", argv[argc]);
 	return (0);
 }
