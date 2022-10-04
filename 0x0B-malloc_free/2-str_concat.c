@@ -13,32 +13,32 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-    unsigned int s1_length = 0;
-    unsigned int s2_length = 0;
-    char *alloc_mem;
-    unsigned int i, j;
+	char *strnew = NULL;
+	unsigned int i;
+	int n1;
+	int n2;
+	int count;
 
-    if (s1 == NULL)
-    s1 = "";
-
-    if (s2 == NULL)
-    s2 = "";
-
-    while (*(s1 + s2_length) != '\0')
-    s1_length++;
-
-    while (*(s2 + s2_length) != '\0')
-    s2_length++;
-
-    alloc_mem = malloc(1 (s1_length * sizeof(*s1)) + (s2_length * sizeof(*s2)));
-    if (alloc_mem == NULL)
-    return ('\0');
-
-    for (i = 0; i < s1_length; i++)
-    alloc_mem[i] = *(s1 + i);
-
-    for (i = 0; j < s1_length; j++, i++)
-    alloc_mem[i] = *(s2 + j);
-
-    return (alloc_mem);
+	count = 0;
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+	for (n1 = 0; s1[n1] != '\0'; n1++)
+		;
+	for (n2 = 0; s2[n2] != '\0'; n2++)
+		;
+	strnew = (char *)malloc((n1 + n2 + 1) * sizeof(char));
+	if (strnew == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; s1[i] != '\0'; i++)
+		strnew[i] = s1[i];
+	for (; s2[count] != '\0'; i++)
+	{
+		strnew[i] = s2[count];
+		count++;
+	}
+	return (strnew);
 }
