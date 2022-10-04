@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stdio.h.>
+#include <stdio.h>
 #include "main.h"
 
 
@@ -22,7 +22,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 	for (n = 0; str[n] != '\0'; n++)
-		;
+		
 	strnew = (char *)malloc(n + 1 * sizeof(char));
 	if (strnew != NULL)
 	{
