@@ -1,5 +1,5 @@
-#ifndef main_h
-#define main_h
+#ifndef dog_h
+#define dog_h
 /**
  * struct dog - list dates about pet
  * @name: pet name
