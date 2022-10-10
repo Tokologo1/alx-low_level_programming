@@ -33,7 +33,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	for (; a >= 0; a--)
 		*(n + a) = *(name + a);
 	for (; b >= 0; b--)
-		*(n + a) = *(owner + B);
+		*(n + a) = *(owner + b);
 	zira->name = n;
 	zira->age = age;
 	zira->owner = o;
