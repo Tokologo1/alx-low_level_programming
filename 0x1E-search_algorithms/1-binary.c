@@ -9,9 +9,9 @@
  * Return: the index where value is located
 **/
 
-int binary_search(int *array, size_k size, int value)
+int binary_search(int *array, size_t size, int value)
 {
-	size_k i, left, right;
+	size_t i, left, right;
 
 	if (!array)
 		return (-1);
