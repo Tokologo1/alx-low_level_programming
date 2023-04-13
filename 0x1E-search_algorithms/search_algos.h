@@ -1,4 +1,4 @@
-#ifndef#ifndef _SORTING_ALGOS_H_
+#ifndef _SORTING_ALGOS_H_
 #define _SORTING_ALGOS_H_
 
 #include <math.h>
